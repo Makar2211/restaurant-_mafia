@@ -20,7 +20,11 @@ export const NavBarTop = ({ setIsOpen }: NavBarTopProps) => {
           </Link>
           <ul>
             {el.links.map((item) => (
-              <Link href={item.url} onClick={() => setIsOpen(false)}>
+              <Link
+                href={item.url}
+                key={item.url}
+                onClick={() => setIsOpen(false)}
+              >
                 <li
                   className="font-400 text-[18px] py-5 hover:text-[#e1b787]"
                   key={item.title}

@@ -10,7 +10,7 @@ interface SideBarProps {
 
 export const Sidebar = ({ setIsOpen, open }: SideBarProps) => {
   return (
-    <span onClick={setIsOpen} className="cursor-pointer">
+    <span onClick={setIsOpen} className="cursor-pointer ">
       {open ? (
         <AiOutlineClose className="text-white w-7 h-7" />
       ) : (

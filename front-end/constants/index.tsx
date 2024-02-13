@@ -6,6 +6,11 @@ export const NavBarMenu = [
   { title: "Суші та сети", url: "/sushi", image: "/sushi-navbar.svg" },
 
   { title: "Бургери та закуски", url: "/burger", image: "/burger-navbar.svg" },
+  { title: "Бургери та закуски", url: "/burger", image: "/burger-navbar.svg" },
+  { title: "Бургери та закуски", url: "/burger", image: "/burger-navbar.svg" },
+  { title: "Бургери та закуски", url: "/burger", image: "/burger-navbar.svg" },
+  { title: "Бургери та закуски", url: "/burger", image: "/burger-navbar.svg" },
+  { title: "Бургери та закуски", url: "/burger", image: "/burger-navbar.svg" },
 ];
 
 export const pizzaParams = [
@@ -74,7 +79,7 @@ export const Sidebar = [
     title: "Компанія",
     url: "/",
     links: [
-      { title: "Гомунітарний ресторан Mafia", url: "/" },
+      { title: "Гуманітарний ресторан Mafia", url: "/" },
       { title: "Про компанію", url: "/" },
       { title: "Франчайзинг", url: "/" },
       { title: "Вакансії", url: "/" },
@@ -82,5 +87,31 @@ export const Sidebar = [
       { title: "Реклама у MAFIA", url: "/" },
       { title: "Угода користувача", url: "/" },
     ],
+  },
+];
+
+export const FooterLinks = [
+  {
+    links: [
+      { title: "Меню доставки", url: "/" },
+      { title: "Ресторани", url: "/" },
+      { title: "Бізнес ланчі", url: "/" },
+    ],
+  },
+  {
+    links: [
+      { title: "Новини", url: "/" },
+      { title: "Бонусна програма", url: "/" },
+    ],
+  },
+  {
+    links: [
+      { title: "Паті бокс", url: "/" },
+      { title: "Франчайзинг", url: "/" },
+      { title: "Вакансії", url: "/" },
+    ],
+  },
+  {
+    links: [{ title: "Договір публічної оферти", url: "/" }],
   },
 ];

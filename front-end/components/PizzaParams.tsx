@@ -12,7 +12,7 @@ export const PizzaParams = () => {
   return (
     <div className="flex items-center justify-center relative">
       {pizzaParams.map((pizza, index) => (
-        <Link href={pizza.url}>
+        <Link href={pizza.url} key={pizza.url}>
           <div
             key={index}
             className={`cursor-pointer  px-[25px] ${
